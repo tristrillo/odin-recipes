@@ -1,6 +1,6 @@
 body{
     background-color: #FFF;
-    color:#000;
+    color:rgb(133, 108, 81);
     font-family: quicksand, sans-serif;
     font-size: 16px;
     line-height: 1.6em;
@@ -59,7 +59,7 @@ div img{
 }
 
 .item a:hover{
-    color:#F29765
+    color:#F29765;
 }
 
 .item img:hover{
@@ -69,6 +69,48 @@ div img{
     box-shadow: 0 0 5px #F29765;
 }
 
+.left{
+    
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding-left: 30px;
+    width:1000px;
+    height: 1507px;
+}
+
+.left img{
+    border-radius: 10px;
+    width:100%;
+}
+
+.ingredients-container{
+    border-radius: 10px;
+    background-color:#F29765;
+    color: #FFF;
+    padding:20px;
+    flex-grow: 3;
+}
+
+.right-top{
+    border-radius: 10px;
+    border:2px solid #f4e5dd;
+    background-color: #f4e5dd;
+    height:500px;
+}
+
+.steps-container{   
+    margin-top:20px;
+    border-radius: 10px;
+    border:2px solid #f4e5dd;
+    background-color: #f4e5dd;
+    height: 550px;
+}
+
+.right-top,
+.steps-container{
+    padding:0 20px 0px 20px;
+}
 
 #main-header{
     background-color: #FFF;
@@ -115,4 +157,8 @@ div img{
 
 #navbar a:hover{
     color:#000;
+}
+
+#main-footer{
+    text-align: center;
 }
